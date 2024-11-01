@@ -1,0 +1,56 @@
+{
+    "packages": [
+        {
+            "name": "verotel/flexpay-php-client",
+            "version": "4.4.0",
+            "version_normalized": "4.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/verotel/flexpay-php-client.git",
+                "reference": "8952156d9be04f04c341ace386a91325498cd302"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verotel/flexpay-php-client/zipball/8952156d9be04f04c341ace386a91325498cd302",
+                "reference": "8952156d9be04f04c341ace386a91325498cd302",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "time": "2021-01-12T11:47:48+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Verotel\\": "src/Verotel/"
+                },
+                "files": [
+                    "FlexPay.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A client to Verotel FlexPay online payment gateway",
+            "homepage": "http://www.verotel.com",
+            "keywords": [
+                "billing.creditcard",
+                "cardbilling",
+                "credit card",
+                "flexpay",
+                "payment",
+                "verotel"
+            ],
+            "support": {
+                "email": "merchantsupport@verotel.com",
+                "issues": "https://github.com/verotel/flexpay-php-client/issues",
+                "source": "https://github.com/verotel/flexpay-php-client/tree/4.4.0"
+            },
+            "install-path": "../verotel/flexpay-php-client"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
